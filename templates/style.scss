@@ -564,6 +564,28 @@ footer.ui-footer {
 	}
 }
 
+/* iFrame */
+#page-iframe {
+	.ui-content {
+		padding: 0px;
+	}
+	#iframe-wrapper {
+		width: 100%;
+		position: absolute;
+		top: 52px;
+		bottom: 0px;
+		overflow-y: visible;
+		-webkit-overflow-scrolling: touch !important;
+	}
+	iframe {
+		width: 100%;
+		height: 99%;
+		overflow-y: scroll !important;
+		overflow-x: hidden;
+		border: 0px none;
+	}
+}
+
 
 /* Styles based on the device's OS */
 html.android header {

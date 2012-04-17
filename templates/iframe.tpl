@@ -3,7 +3,9 @@
 	{jqm_header title="iFrame" back_button="true"}{/jqm_header}
 
 	{jqm_content}
-		<iframe src="http://jquerymobile.com/demos/1.1.0/" width="100%" height="100%"></iframe>
+		<div id="iframe-wrapper">
+			<iframe src="http://go.plymouth.edu/www"></iframe>
+		</div>
 	{/jqm_content}
 
 {/jqm_page}
