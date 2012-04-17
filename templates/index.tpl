@@ -36,6 +36,12 @@
 						Feedback
 					</a>
 				</li>
+				<li id="mapp-iframe">
+					<a href="iframe/">
+						{iconbox id="feedback" size="large"}
+						iFrame
+					</a>
+				</li>
 			</ul>
 		</nav>
 	{* End dashboard *}

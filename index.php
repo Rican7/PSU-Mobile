@@ -83,6 +83,7 @@ $app_routes = array(
 	'feedback',
 	'clusters',
 	'directory',
+	'iframe',
 );
 
 foreach( $app_routes as $base ) {
